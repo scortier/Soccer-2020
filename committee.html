@@ -16,8 +16,86 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <style>
-@media(orientation: landscape){
-	
+@media screen and (min-width:768px){
+	.soccer{
+		color:#715EE9;
+		font-weight: bolder;
+		font-size: 300%;
+		margin-left:15vw;
+		margin-top: 10%;
+	}
+	.class-2020{
+		color: #FF9000;
+		font-size: 120%;
+	}
+	.heading1{
+		color:rgba(238, 234, 234);
+		margin-left:15vw;
+		font-size: 250%;
+	}
+	.mobile-view2{
+		display:none;	
+	}
+	.sponsor-name{
+		color:rgba(255, 145, 0, 0.884);
+		font-size: 20px;
+		margin-left:15vw;
+		font-size: 180%;
+	}
+	.college-name{
+		color:rgba(238, 234, 234);
+		margin-left:15vw;
+		margin-top: -1em;
+		font-size: 200%;
+	}
+}
+@media screen and (max-width:769px){
+	.soccer{
+		color: #715EE9;
+    font-weight: bolder;
+    font-size: 200%;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    text-align: center;
+	}
+	.class-2020{
+		color: #FF9000;
+		font-size: 120%;
+	}
+	.heading1{
+		color: rgba(238, 234, 234);
+    	margin-left: 15vw;
+    font-size: 250%;
+    text-align: center;
+    left: 10vw;
+    position: relative;
+	}
+	.date-responsive{
+    position: relative;
+    left: 30vw;
+    text-align: center;
+	}
+	.college{
+		    position: relative;
+    	left: 10vw;
+    	text-align: center;
+	}
+	.mobile-view1{
+		display:none;
+	}
+	.sponsor-name{
+		color:rgba(255, 145, 0, 0.884);
+		font-size: 16px;
+		margin-left:15vw;
+		font-size: 150%;
+	}
+	.college-name{
+		color:rgba(238, 234, 234);
+		margin-left:15vw;
+		margin-top: -1em;
+		font-size: 175%;
+	}
+	/*}	color:rgba(238, 234, 234);margin-left:15vw;font-size: 250%;*/
 }
 </style>
 </head>
@@ -117,87 +195,144 @@
 								<div class="col">
 									<div class="home_content">
 										<div class="home_title">
-											<h2 style="color:#715EE9;font-weight: bolder;font-size: 300%;margin-left:15vw;margin-top: 10%;">SOCCER <span style="color: #FF9000;font-size: 120%;">2020</span></h2>
-											<h2 style="color:rgba(238, 234, 234);margin-left:15vw;font-size: 250%;">Symposium on Control, Communication and <br>Embedded System for  Robotics</h2>
+											<h2 class="h2_name soccer">SOCCER <span class="class-2020">2020</span></h2>
+											<h2 class="heading1">International Symposium on Control, Communication and <br>Embedded System for  Robotics</h2>
 										</div>
-								
-										<div class="home_info_container">
+										<!-- <div class="home_info_container">
 											<div class="home_info">
-												<ul class="d-flex flex-row align-items-center justify-content-start" style="margin-left: -4.5em;">
-													<li>9-10 June 2020</li>
+													<h2 style="color:#fff;font-size: 38px;">SOCCER 2020</h2>
+											<h2 style="color:rgba(238, 234, 234, 0.877)">Symposium on Control, Communication and
+												Embedded System for Robotics</h2>
+												
+											</div>
+										</div> -->
+										<div class="home_info_container date-responsive">
+											<div class="home_info">
+												<ul class="d-flex flex-row align-items-center justify-content-start" style="margin-left: -5em;">
+													<li>03-04 October 2020</li>
 												</ul>
 											</div>
 										</div>
 										<br>
 										<br>
-										<div class="home_title">
+										<div class="home_title college">
 											<!-- <h2 style="color:#715EE9;font-weight: bolder;">SOCCER <span style="color: #FF9000;">2020</span></h2> -->
-											<h4 style="color:rgba(238, 234, 234);margin-left:15vw;margin-top: -1em;font-size: 200%;">National Institute of Technology Silchar, India</h4>
-											<p style="color:rgba(255, 145, 0, 0.884);font-size: 20px;margin-left:15vw;;font-size: 180%;">Sponsored by SPARC, MHRD, Government of India</p>
+											<h4 class="college-name">National Institute of Technology Silchar, India</h4>
+											<p class="sponsor-name">Sponsored by SPARC, MHRD, Government of India</p>
 										</div>
-									
+										<!-- <div class="button button_1 home_button"><a href="#"><span>get tickets<img src="images/arrow_2.png" alt=""></span></a></div> -->
 									</div>
 								</div>
 							
 									<img src="./images/icons/br_soccer.png" style=" margin-right: 50em;margin-top: -22em;height:36vh; width:36vh;margin-left: -5em">
+								<!-- =========================== LATEST NEWS START================= -->
+									<div class="col-md-4 mobile-view1" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%; margin-left: 65vw;margin-top: -30vh;">
+										<div class="post">
+							<blockquote>
+								<h4 class="text-left" style="color:#fff;">
+									<i class="fa fa-history orange-text" aria-hidden="true"></i> Latest News
+								</h4>
+							</blockquote>
+							<hr class="notice-boxHR">
+						    <div class="scroll-marquee">
+								<marquee direction="up" scrollamount="3" scrolldelay="100" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" height="200">
+					
+					   
+						
+									<p class="text-justify" style="color: azure;">
+										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
+										<span> 
+										<a href="Postponement of SOCCER.pdf">Postponement notificcation of SOCCER 2020 </span>
+														 </a>
+														 </span> <br>
+										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
+										<span> 
+										<a href="#details">Paper submission is now open. </span>
+														 </a>
+														 </span>
+														   <span id="rptcircular_ctl00_lblDesc"></span>
+								   </p>
+									<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
+									 <span id="rptcircular_ctl00_Label1">12-02-2020</span></h6>
+								 
+								   
+								 
+									
+									 
+										<p class="text-justify">
+										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
+										<span> 
+										<a href="#registration" style="color: #FFF;">Registration details coming soon.</span>
+														 </a>
+														 </span>
+														   <span id="rptcircular_ctl01_lblDesc"></span>
+								   </p>
+									<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
+									 <span id="rptcircular_ctl01_Label1">12-02-2020</span></h6>
+					
+					</marquee>
+							</div>
+						</div>
+					</div>
 
-													<!-- =========================== LATEST NEWS START================= -->
-													<div class="col-md-4" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%; margin-left: 65vw;margin-top: -30vh;">
-														<div class="post">
-											<blockquote>
-												<h4 class="text-left" style="color:#bbdadf;">
-													<i class="fa fa-history orange-text" aria-hidden="true"></i> Latest News
-												</h4>
-											</blockquote>
-											<hr class="notice-boxHR">
-											<div class="scroll-marquee">
-												<marquee direction="up" scrollamount="3" scrolldelay="100" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" height="200">
-									
-									   
-										
-													<p class="text-justify" style="color: azure;">
-														<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
-														<span> 
-														<a href="#details">Paper submission is now open. </span>
-																		 </a>
-																		 </span>
-																		   <span id="rptcircular_ctl00_lblDesc"></span>
-												   </p>
-													<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
-													 <span id="rptcircular_ctl00_Label1">12-02-2020</span></h6>
-												 
-												   
-												 
-													
-													 
-														<p class="text-justify">
-														<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
-														<span> 
-														<a href="#registration" style="color: #FFF;">Registration details coming soon.</span>
-																		 </a>
-																		 </span>
-																		   <span id="rptcircular_ctl01_lblDesc"></span>
-												   </p>
-													<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
-													 <span id="rptcircular_ctl01_Label1">12-02-2020</span></h6>
-									
-									</marquee>
-											</div>
-										</div>
-									</div>
-				
-									<!-- ========================LATEST NEWS END ====================== -->
-								
+					<!-- ========================LATEST NEWS END ====================== -->
 							</div>
 						</div>
 					</div>
 				</div>
 
-		
+				
 
 		</div>
 	</div>
-
+			<div class="col-sm-12 mobile-view2" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%;margin-top: 10vh;">
+										<div class="post">
+							<blockquote>
+								<h4 class="text-left" style="color:#fff;">
+									<i class="fa fa-history orange-text" aria-hidden="true"></i> Latest News
+								</h4>
+							</blockquote>
+							<hr class="notice-boxHR">
+						    <div class="scroll-marquee">
+								<marquee direction="up" scrollamount="3" scrolldelay="100" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" height="200">
+					
+					   
+						
+									<p class="text-justify" style="color: azure;">
+										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
+										<span> 
+										<a href="Postponement of SOCCER.pdf">Postponement notificcation of SOCCER 2020 </span>
+														 </a>
+														 </span> <br>
+										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
+										<span> 
+										<a href="#details">Paper submission is now open. </span>
+														 </a>
+														 </span>
+														   <span id="rptcircular_ctl00_lblDesc"></span>
+								   </p>
+									<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
+									 <span id="rptcircular_ctl00_Label1">12-02-2020</span></h6>
+								 
+								   
+								 
+									
+									 
+										<p class="text-justify">
+										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
+										<span> 
+										<a href="#registration" style="color: #FFF;">Registration details coming soon.</span>
+														 </a>
+														 </span>
+														   <span id="rptcircular_ctl01_lblDesc"></span>
+								   </p>
+									<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
+									 <span id="rptcircular_ctl01_Label1">12-02-2020</span></h6>
+					
+					</marquee>
+							</div>
+						</div>
+					</div>
 
 
 

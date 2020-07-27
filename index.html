@@ -1,227 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>SOCCER 2020 | NIT SILCHAR</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Confpro template project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-<link rel="icon" href="./images/icons/br_soccer.png">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-<style>
-	.btn{
-    border:2px solid #141c49;
-    padding:1.5%;
-	margin-top: 4vh;
-	background-color:#7f66ff;
-    margin-left:38%;
-}
-.btn a:hover{
-    text-decoration:none;
-}
+	<title>SOCCER 2020 | NIT SILCHAR</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Confpro template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+	<link rel="icon" href="./images/icons/br_soccer.png">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
+	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<style>
+		.btn {
+			border: 2px solid #141c49;
+			padding: 1.5%;
+			margin-top: 4vh;
+			background-color: #7f66ff;
+			margin-left: 38%;
+		}
 
-@media(orientation: portrait){
-	.middle-for-mobile{
-		margin-top:5%;
-		margin-left:20%;
-		display: block;
-		background-color: #7F66FF !important;
-		width: 200px;
-		height: 59px;
-		line-height: 59px;
-		font-size: 14px;
-		font-weight: 900;
-		text-transform: uppercase;
-		letter-spacing: 0.2em;
-		cursor:pointer;
-		color:#ffffff;
-		text-align: center;
-	}
-}
+		.btn a:hover {
+			text-decoration: none;
+		}
 
-@media(orientation: landscape){
-	.middle-for-mobile{
-		display: block;
-		background-color: #7F66FF !important;
-		width: 200px;
-		height: 59px;
-		line-height: 59px;
-		font-size: 14px;
-		font-weight: 900;
-		text-transform: uppercase;
-		letter-spacing: 0.2em;
-		cursor:pointer;
-		color:#ffffff;
-		text-align: center;
-		margin-top: 4vh;
-	}
-	.register-1{
-		border: 1px solid #dddddd;text-align:center;padding: 8px;color:#7F66FF;
-	}
-	.register-2{
-		border: 1px solid #dddddd;text-align:center;padding: 8px;color: #46484b;font-size: 16px;
-	}
-}
-@media screen and (min-width:768px){
-	.soccer{
-		color:#715EE9;
-		font-weight: bolder;
-		font-size: 300%;
-		margin-left:15vw;
-		margin-top: 10%;
-	}
-	.class-2020{
-		color: #FF9000;
-		font-size: 120%;
-	}
-	.heading1{
-		color:rgba(238, 234, 234);
-		margin-left:15vw;
-		font-size: 250%;
-	}
-	.mobile-view2{
-		display:none;	
-	}
-	.sponsor-name{
-		color:rgba(255, 145, 0, 0.884);
-		font-size: 20px;
-		margin-left:15vw;
-		font-size: 180%;
-	}
-	.college-name{
-		color:rgba(238, 234, 234);
-		margin-left:15vw;
-		margin-top: -1em;
-		font-size: 200%;
-	}
-}
-@media screen and (max-width:769px){
-	.soccer{
-		color: #715EE9;
-    font-weight: bolder;
-    font-size: 200%;
-    margin-left: 30vw;
-    margin-top: 20vh;
-    text-align: center;
-	}
-	.class-2020{
-		color: #FF9000;
-		font-size: 120%;
-	}
-	.heading1{
-		color: rgba(238, 234, 234);
-    	margin-left: 15vw;
-    font-size: 250%;
-    text-align: center;
-    left: 10vw;
-    position: relative;
-	}
-	.date-responsive{
-    position: relative;
-    left: 30vw;
-    text-align: center;
-	}
-	.college{
-		    position: relative;
-    	left: 10vw;
-    	text-align: center;
-	}
-	.mobile-view1{
-		display:none;
-	}
-	.mobile-view2{
-		display:block;
-	}
-	.sponsor-name{
-		color:rgba(255, 145, 0, 0.884);
-		font-size: 16px;
-		margin-left:15vw;
-		font-size: 150%;
-	}
-	.college-name{
-		color:rgba(238, 234, 234);
-		margin-left:15vw;
-		margin-top: -1em;
-		font-size: 175%;
-	}
-	/*}	color:rgba(238, 234, 234);margin-left:15vw;font-size: 250%;*/
-}
-</style>
+		@media(orientation: portrait) {
+			.middle-for-mobile {
+				margin-top: 5%;
+				margin-left: 20%;
+				display: block;
+				background-color: #7F66FF !important;
+				width: 200px;
+				height: 59px;
+				line-height: 59px;
+				font-size: 14px;
+				font-weight: 900;
+				text-transform: uppercase;
+				letter-spacing: 0.2em;
+				cursor: pointer;
+				color: #ffffff;
+				text-align: center;
+			}
+		}
+
+		@media(orientation: landscape) {
+			.middle-for-mobile {
+				display: block;
+				background-color: #7F66FF !important;
+				width: 200px;
+				height: 59px;
+				line-height: 59px;
+				font-size: 14px;
+				font-weight: 900;
+				text-transform: uppercase;
+				letter-spacing: 0.2em;
+				cursor: pointer;
+				color: #ffffff;
+				text-align: center;
+				margin-top: 4vh;
+			}
+
+			.register-1 {
+				border: 1px solid #dddddd;
+				text-align: center;
+				padding: 8px;
+				color: #7F66FF;
+			}
+
+			.register-2 {
+				border: 1px solid #dddddd;
+				text-align: center;
+				padding: 8px;
+				color: #46484b;
+				font-size: 16px;
+			}
+		}
+
+		@media screen and (min-width:768px) {
+			.soccer {
+				color: #715EE9;
+				font-weight: bolder;
+				font-size: 300%;
+				margin-left: 15vw;
+				margin-top: 10%;
+			}
+
+			.class-2020 {
+				color: #FF9000;
+				font-size: 120%;
+			}
+
+			.heading1 {
+				color: rgba(238, 234, 234);
+				margin-left: 15vw;
+				font-size: 250%;
+			}
+
+			.mobile-view2 {
+				display: none;
+			}
+
+			.sponsor-name {
+				color: rgba(255, 145, 0, 0.884);
+				font-size: 20px;
+				margin-left: 15vw;
+				font-size: 180%;
+			}
+
+			.college-name {
+				color: rgba(238, 234, 234);
+				margin-left: 15vw;
+				margin-top: -1em;
+				font-size: 200%;
+			}
+		}
+
+		@media screen and (max-width:769px) {
+			.soccer {
+				color: #715EE9;
+				font-weight: bolder;
+				font-size: 200%;
+				margin-left: 30vw;
+				margin-top: 20vh;
+				text-align: center;
+			}
+
+			.class-2020 {
+				color: #FF9000;
+				font-size: 120%;
+			}
+
+			.heading1 {
+				color: rgba(238, 234, 234);
+				margin-left: 15vw;
+				font-size: 150%;
+				text-align: center;
+				left: 10vw;
+				position: relative;
+			}
+
+			.date-responsive {
+				position: relative;
+				left: 30vw;
+				text-align: center;
+			}
+
+			.college {
+				position: relative;
+				left: 10vw;
+				text-align: center;
+			}
+
+			.mobile-view1 {
+				display: none;
+			}
+
+			.mobile-view2 {
+				display: block;
+			}
+
+			.sponsor-name {
+				color: rgba(255, 145, 0, 0.884);
+				font-size: 16px;
+				margin-left: 15vw;
+				font-size: 150%;
+			}
+
+			.college-name {
+				color: rgba(238, 234, 234);
+				margin-left: 15vw;
+				margin-top: -1em;
+				font-size: 175%;
+			}
+
+			/*}	color:rgba(238, 234, 234);margin-left:15vw;font-size: 250%;*/
+		}
+	</style>
 </head>
+
 <body>
 
-<div class="super_container">
-	
-	<!-- Header -->
+	<div class="super_container">
 
-	<header class="header">
-		<div class="header_content d-flex flex-row align-items-center justify-content-start">
-			
-			<!-- Logo -->
-			<div class="logo">
-					<span style="color:#ffffff;font-size:125%">SOCCER<span style="color:#FF9000"> 2020</span>
-					<!-- <img src="./images/icons/br_soccer.png" height="38vh"> -->
-			</div>
+		<!-- Header -->
 
-			<!-- Main Navigation -->
-			<nav class="main_nav">
-				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="#about">About us</a></li>
-					<li><a href="#details">Call for Papers</a></li>
-					<li class="has_children">
-						<a href="committee.html">Committee</a>
-						<ul>
-							<li><a href="committee.html#patron">Patron</a></li>
-							<li><a href="committee.html#program">Program Chairs</a></li>
-							<li><a href="committee.html#organizing">Organizing Chairs</a></li>
-							<li><a href="committee.html#technical_chair">Technical Chairs</a></li>
-							<li><a href="committee.html#technical_committee">Technical Committee</a></li>
-							<li><a href="committee.html#registration">Registration Chairs</a></li>
-							<li><a href="committee.html#publication">Publication Chairs</a></li>
-							<li><a href="committee.html#publicity">Publicity Chairs</a></li>
-							<li><a href="committee.html#local_hospitality">Local Hospitality Chairs</a></li>
-							<li><a href="committee.html#local_organizing">Local Organizing Chairs</a></li>
-						</ul>
-					</li>
-					
-					<li><a href="#speakers">Speakers</a></li>
-					<li><a href="#schedule">Schedule</a></li>
-					<li><a href="#registration">Registration</a></li>
-					<li><a href="#sponsors">Sponsors</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+		<header class="header">
+			<div class="header_content d-flex flex-row align-items-center justify-content-start">
 
-			<div class="header_right ml-auto d-flex flex-row align-items-center justify-content-start">
-			
+				<!-- Logo -->
 				<div class="logo">
-					<!-- <img src="./images/icons/nit logo_white - Orange2.png" height="70vh" style="position: relative;margin-right: 5vw;"> -->
-			</div>
-				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
-			</div>
-		</div>
-	</header>
+					<span style="color:#ffffff;font-size:125%">SOCCER<span style="color:#FF9000"> 2020</span>
+						<!-- <img src="./images/icons/br_soccer.png" height="38vh"> -->
+				</div>
 
-	<!-- Menu -->
-
-	<div class="menu">
-		<div class="menu_container">
-			<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-			<div class="menu_content d-flex flex-column align-items-center justify-content-start">
-				<nav class="menu_nav">
-					<ul class="d-flex flex-column align-items-center justify-content-start">
-						<li><a href="index.html">Home</a></li>
+				<!-- Main Navigation -->
+				<nav class="main_nav">
+					<ul class="d-flex flex-row align-items-center justify-content-start">
+						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="#about">About us</a></li>
-						<li><a href="#papers">Call for Papers</a></li>
-						<li><a href="committee.html">Committee</a></li>
+						<li><a href="#details">Call for Papers</a></li>
+						<li class="has_children">
+							<a href="committee.html">Committee</a>
+							<ul>
+								<li><a href="committee.html#patron">Patron</a></li>
+								<li><a href="committee.html#program">Program Chairs</a></li>
+								<li><a href="committee.html#organizing">Organizing Chairs</a></li>
+								<li><a href="committee.html#technical_chair">Technical Chairs</a></li>
+								<li><a href="committee.html#technical_committee">Technical Committee</a></li>
+								<li><a href="committee.html#registration">Registration Chairs</a></li>
+								<li><a href="committee.html#publication">Publication Chairs</a></li>
+								<li><a href="committee.html#publicity">Publicity Chairs</a></li>
+								<li><a href="committee.html#local_hospitality">Local Hospitality Chairs</a></li>
+								<li><a href="committee.html#local_organizing">Local Organizing Chairs</a></li>
+							</ul>
+						</li>
+
 						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="#schedule">Schedule</a></li>
 						<li><a href="#registration">Registration</a></li>
@@ -229,19 +227,49 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
+
+				<div class="header_right ml-auto d-flex flex-row align-items-center justify-content-start">
+
+					<div class="logo">
+						<!-- <img src="./images/icons/nit logo_white - Orange2.png" height="70vh" style="position: relative;margin-right: 5vw;"> -->
+					</div>
+					<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+				</div>
 			</div>
-			
+		</header>
+
+		<!-- Menu -->
+
+		<div class="menu">
+			<div class="menu_container">
+				<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+				<div class="menu_content d-flex flex-column align-items-center justify-content-start">
+					<nav class="menu_nav">
+						<ul class="d-flex flex-column align-items-center justify-content-start">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#about">About us</a></li>
+							<li><a href="#papers">Call for Papers</a></li>
+							<li><a href="committee.html">Committee</a></li>
+							<li><a href="#speakers">Speakers</a></li>
+							<li><a href="#schedule">Schedule</a></li>
+							<li><a href="#registration">Registration</a></li>
+							<li><a href="#sponsors">Sponsors</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
 		</div>
-	</div>
 
-	<!-- Home -->
+		<!-- Home -->
 
-	<div class="home">
-		
-		<!-- Home Slider -->
-		<div class="home_slider_container">
-			
-				
+		<div class="home">
+
+			<!-- Home Slider -->
+			<div class="home_slider_container">
+
+
 				<!-- Slide -->
 				<div class="slide">
 					<div class="background_image" style="background-image:url(images/about/bg_pic.jpg)"></div>
@@ -252,7 +280,8 @@
 									<div class="home_content">
 										<div class="home_title">
 											<h2 class="h2_name soccer">SOCCER <span class="class-2020">2020</span></h2>
-											<h2 class="heading1">International Symposium on Control, Communication and <br>Embedded System for  Robotics</h2>
+											<h2 class="heading1">International Symposium on Control, Communication and
+												<br>Embedded System for Robotics</h2>
 										</div>
 										<!-- <div class="home_info_container">
 											<div class="home_info">
@@ -264,7 +293,8 @@
 										</div> -->
 										<div class="home_info_container date-responsive">
 											<div class="home_info">
-												<ul class="d-flex flex-row align-items-center justify-content-start" style="margin-left: -5em;">
+												<ul class="d-flex flex-row align-items-center justify-content-start"
+													style="margin-left: -5em;">
 													<li>03-04 October 2020</li>
 												</ul>
 											</div>
@@ -273,80 +303,91 @@
 										<br>
 										<div class="home_title college">
 											<!-- <h2 style="color:#715EE9;font-weight: bolder;">SOCCER <span style="color: #FF9000;">2020</span></h2> -->
-											<h4 class="college-name">National Institute of Technology Silchar, India</h4>
+											<h4 class="college-name">National Institute of Technology Silchar, India
+											</h4>
 											<p class="sponsor-name">Sponsored by SPARC, MHRD, Government of India</p>
-											<p style="color:rgba(255, 145, 0, 0.884);font-size: 20px;margin-left:15vw;;font-size: 180%;"><a href=" https://easychair.org/conferences/?conf=soccer2020" target="blank">Paper submission is open and through Easy Chair</a></p>
+											<p
+												style="color:rgba(255, 145, 0, 0.884);font-size: 20px;margin-left:15vw;;font-size: 150%;">
+												<a href=" https://easychair.org/conferences/?conf=soccer2020"
+													target="blank">Paper submission is open and through Easy Chair</a>
+											<br>
+												<a href=" #details"> The papers will be published as book chapters of a
+													Springer book series<br> Smart Innovation, Systems and Technologies</a>
+											</p>
 										</div>
 										<!-- <div class="button button_1 home_button"><a href="#"><span>get tickets<img src="images/arrow_2.png" alt=""></span></a></div> -->
 									</div>
 								</div>
-							
-									<img src="./images/icons/br_soccer.png" style=" margin-right: 50em;margin-top: -22em;height:36vh; width:36vh;margin-left: -5em">
+
+								<img src="./images/icons/brr1.png"
+									style=" margin-right: 50em;margin-top: -22em;height:45vh; width:36vh;margin-left: -5em">
+									
 								<!-- =========================== LATEST NEWS START================= -->
-									<div class="col-md-4 mobile-view1" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%; margin-left: 65vw;margin-top: -30vh;">
+								<div class="col-md-4 mobile-view1"
+									style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%; margin-left: 65vw;margin-top: -30vh;">
 
-									
-<!-- =========================== LATEST NEWS START================= -->
-					<!-- <div class="col-md-4" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%; margin-left: 65vw;margin-top: -80vh;">
+
+			<!-- =========================== LATEST NEWS START================= -->
+									<!-- <div class="col-md-4" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%; margin-left: 65vw;margin-top: -80vh;">
 					<div class="post"> -->
-							<blockquote>
-								<h4 class="text-left" style="color:#fff;">
-									<i class="fa fa-history orange-text" aria-hidden="true"></i> Latest News
-								</h4>
-							</blockquote>
-							<hr class="notice-boxHR">
-						    <div class="scroll-marquee"> 
-								<marquee direction="up" scrollamount="3" scrolldelay="100" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" height="200">
-					
-					   
-						
-									<p class="text-justify" style="color: azure;">
-										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
-										<span> 
-										<a href="Postponement of SOCCER.pdf">Postponement notificcation of SOCCER 2020 </span>
-														 </a>
-														 </span> <br>
-										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
-										<span> 
-										<a href="#details">Paper submission is now open. </span>
-														 </a>
-														 </span>
-														   <span id="rptcircular_ctl00_lblDesc"></span>
-								   </p>
-									<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
-									 <span id="rptcircular_ctl00_Label1">12-02-2020</span></h6>
-								 
-								   
-								 
-									
-									 
-										<p class="text-justify">
-										<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i> 
-										<span> 
-										<a href="#registration" style="color: #FFF;">Registration details coming soon.</span>
-														 </a>
-														 </span>
-														   <span id="rptcircular_ctl01_lblDesc"></span>
-								   </p>
-									<h6 style="color: #FF9000;">  <i class="fa fa-calendar orange-text" aria-hidden="true"></i> Published on
-									 <span id="rptcircular_ctl01_Label1">12-02-2020</span></h6>
-					
-					</marquee>
-							</div>
-						</div>
-					</div>
+									<blockquote>
+										<h4 class="text-left" style="color:#fff;">
+											<i class="fa fa-history orange-text" aria-hidden="true"></i> Latest News
+										</h4>
+									</blockquote>
+									<hr class="notice-boxHR">
+									<div class="scroll-marquee">
+										<marquee direction="up" scrollamount="3" scrolldelay="100" behavior="scroll"
+											onmouseover="this.stop();" onmouseout="this.start();" height="120">
 
-					<!-- ========================LATEST NEWS END ====================== -->
-							</div>
+											<h6 style="color: #FF9000;"> <i class="fa fa-calendar orange-text"
+													aria-hidden="true"></i> Published on
+												<span id="rptcircular_ctl00_Label1">28-07-2020</span></h6>
+
+											<p class="text-justify" style="color: azure;">
+												<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i>
+												<span>
+													<a href="#details">Extended date of paper submission to 14th August,
+														2020.</span>
+												</a>
+												</span> <br>
+												<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i>
+												<span>
+													<a href="#registration">Reduced Registration Fee </span>
+												</a>
+												</span>
+												<span id="rptcircular_ctl00_lblDesc"></span>
+												<br>
+												<i class="fa fa-pencil-square-o orange-text" aria-hidden="true"></i>
+												<span>
+													<a href="#details" style="color: #FFF;"> Publication in Springer
+														book series " Smart Innovation, Systems and Technologies "
+												</span>
+												</a>
+												</span>
+												<span id="rptcircular_ctl01_lblDesc"></span>
+											</p>
+
+
+
+
+
+										</marquee>
+									</div>
+								
+							
+
+							<!-- ========================LATEST NEWS END ====================== -->
 						</div>
 					</div>
 				</div>
+			</div>
 
-				
+
 
 		</div>
 	</div>
-			<!-- <div class="col-sm-12 mobile-view2" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%;margin-top: 10vh;">
+	<!-- <div class="col-sm-12 mobile-view2" style="border: 2px solid #bacbce;background-color: rgb(27, 32, 32);padding: 2%;margin-top: 10vh;">
 										<div class="post">
 							<blockquote>
 								<h4 class="text-left" style="color:#fff;">
@@ -394,7 +435,7 @@
 							</div>
 						</div>
 					</div> -->
-				</div>
+	</div>
 	<!-- Intro -->
 
 	<div class="intro" id="about">
@@ -402,30 +443,51 @@
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title_container text-center">
-						<div class="section_title"><h1>About NIT SILCHAR</h1></div>
+						<div class="section_title">
+							<h1>About NIT SILCHAR</h1>
+						</div>
 					</div>
 					<br>
 					<div class="intro_text text-center">
-						<p style="text-align: justify;">National Institute of Technology (NIT) Silchar, an Institute of National Importance under the NIT Act was established in 1967 as Regional Engineering College (REC) Silchar in Assam. In the year 2002, it was upgraded to the status of an NIT from REC. NIT Silchar is situated on the banks of river Barak and on a sprawling campus spread over 600 acres of land on the outskirts of Silchar. NIT Silchar is a fully residential Institution. At present it offers six undergraduate courses in Civil, Electrical, Mechanical, Electronics & Communication, Computer Science & Engineering and Electronics & Instrumentation Engineering. All the departments of the Institute also offer M. Tech. and Ph. D. programmes.</p>
+						<p style="text-align: justify;">National Institute of Technology (NIT) Silchar, an Institute of
+							National Importance under the NIT Act was established in 1967 as Regional Engineering
+							College (REC) Silchar in Assam. In the year 2002, it was upgraded to the status of an NIT
+							from REC. NIT Silchar is situated on the banks of river Barak and on a sprawling campus
+							spread over 600 acres of land on the outskirts of Silchar. NIT Silchar is a fully
+							residential Institution. At present it offers six undergraduate courses in Civil,
+							Electrical, Mechanical, Electronics & Communication, Computer Science & Engineering and
+							Electronics & Instrumentation Engineering. All the departments of the Institute also offer
+							M. Tech. and Ph. D. programmes.</p>
 					</div>
-					<div class="button button_2 intro_button"><a href="https://www.nits.ac.in"><span>visit website<img src="images/arrow.png" alt=""></span></a></div>
+					<div class="button button_2 intro_button"><a href="https://www.nits.ac.in"><span>visit website<img
+									src="images/arrow.png" alt=""></span></a></div>
 				</div>
 			</div>
 			<br><br>
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title_container text-center">
-						<div class="section_title"><h1>About Department</h1></div>
+						<div class="section_title">
+							<h1>About Department</h1>
+						</div>
 					</div>
 					<br>
 					<div class="intro_text text-center">
-						<p style="text-align: justify;">The department offers core courses in Control Systems, Power Systems, Electrical Machines, Instrumentation, Switchgear and Industrial Protection, Microprocessors and Microcontrollers etc. The state-of-the-art Lab facility exists in the department like Machine Lab, Microprocessor & Embedded System Lab, Computational Lab and Advance Control Lab, etc. to name a few. Various research and development activities are taken up by the department to put the students on busy schedules enabling them to blend to the modern industrial requirements. The department regularly organizes seminars, workshops, conferences at national and international level.</p>
+						<p style="text-align: justify;">The department offers core courses in Control Systems, Power
+							Systems, Electrical Machines, Instrumentation, Switchgear and Industrial Protection,
+							Microprocessors and Microcontrollers etc. The state-of-the-art Lab facility exists in the
+							department like Machine Lab, Microprocessor & Embedded System Lab, Computational Lab and
+							Advance Control Lab, etc. to name a few. Various research and development activities are
+							taken up by the department to put the students on busy schedules enabling them to blend to
+							the modern industrial requirements. The department regularly organizes seminars, workshops,
+							conferences at national and international level.</p>
 					</div>
-					<div class="button button_2 intro_button"><a href="#"><span>visit website<img src="images/arrow.png" alt=""></span></a></div>
+					<div class="button button_2 intro_button"><a href="#"><span>visit website<img src="images/arrow.png"
+									alt=""></span></a></div>
 
-					
+
 				</div>
-				
+
 			</div>
 		</div>
 	</div>
@@ -438,7 +500,9 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<div class="section_subtitle">see what's all about</div>
-						<div class="section_title"><h1>Call for Papers</h1></div>
+						<div class="section_title">
+							<h1>Call for Papers</h1>
+						</div>
 					</div>
 					<div class="tabs_container">
 						<div class="tabs d-flex flex-row align-items-center justify-content-start flex-wrap">
@@ -446,51 +510,98 @@
 							<div class="tab">Topics of Interest</div>
 							<div class="tab">Paper Submission</div>
 							<div class="tab">Publications</div>
-							
+
 						</div>
 						<div class="tab_panels">
-							
-							
+
+
 							<div class="tab_panel active">
 								<div class="row">
 									<div class="col">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>Scope and Objectives</h3></div>
+											<div class="tab_title">
+												<h3>Scope and Objectives</h3>
+											</div>
 											<div class="tab_text">
-												<p style="text-align: justify;">The primary focus for the <b>SOCCER 2020</b> is the control, wireless communication and development of embedded systems for robotic applications. Robot control technology is widely used for space, surgery, rehabilitation, micro machine, entertainment, underwater, civil engineering, professional and domestic services, security etc. Consequently, control will continue to play an increasingly important role in the areas of robotics including robot-robot and human-robot cooperation in various dynamic scenarios. Subsequently, due to changing communication infrastructure and technologies, it is highly desirable these days to propagate control commands through wireless communication channels/medium. Thus, inclusion of wireless communication for control of robotic systems possess serious challenges to the performance of the control system, thereby the development and testing control algorithms for robotic systems/applications under such communication environment needs cutting edge technologies. Furthermore, for real-time implementation of the control through present day communication networks requires realizable and scalable embedded design. Contributions on basic research of control over networks as well as on relevant robotics applications are included.</p>
-												<p style="text-align: justify;">This Symposium provides an opportunity to present and discuss research and development work pertaining to intelligent control, deployment of intelligent and nonlinear control and embedded control for robotic system emerging for non-standard operating environment.</p>
+												<p style="text-align: justify;">The primary focus for the <b>SOCCER
+														2020</b> is the control, wireless communication and development
+													of embedded systems for robotic applications. Robot control
+													technology is widely used for space, surgery, rehabilitation, micro
+													machine, entertainment, underwater, civil engineering, professional
+													and domestic services, security etc. Consequently, control will
+													continue to play an increasingly important role in the areas of
+													robotics including robot-robot and human-robot cooperation in
+													various dynamic scenarios. Subsequently, due to changing
+													communication infrastructure and technologies, it is highly
+													desirable these days to propagate control commands through wireless
+													communication channels/medium. Thus, inclusion of wireless
+													communication for control of robotic systems possess serious
+													challenges to the performance of the control system, thereby the
+													development and testing control algorithms for robotic
+													systems/applications under such communication environment needs
+													cutting edge technologies. Furthermore, for real-time implementation
+													of the control through present day communication networks requires
+													realizable and scalable embedded design. Contributions on basic
+													research of control over networks as well as on relevant robotics
+													applications are included.</p>
+												<p style="text-align: justify;">This Symposium provides an opportunity
+													to present and discuss research and development work pertaining to
+													intelligent control, deployment of intelligent and nonlinear control
+													and embedded control for robotic system emerging for non-standard
+													operating environment.</p>
 											</div>
 										</div>
 									</div>
-									
+
 								</div>
 							</div>
 							<div class="tab_panel">
 								<div class="row">
 									<div class="col">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>Topics of Interest</h3></div>
+											<div class="tab_title">
+												<h3>Topics of Interest</h3>
+											</div>
 											<div class="tab_text">
-												<p>Topics of interests include, but are not limited to the followings</p>
+												<p>Topics of interests include, but are not limited to the followings
+												</p>
 												<ul style="list-style-type:disc;" style="margin-bottom: 1vh;">
-													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Intelligent control over wireless network: mobile robots, vehicles and UAVs Semi-, highly- and full-automated driving</li>
-													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Formation flying and control for defense applications</li>
-													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control of space vehicles</li>
-													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control problems of Haptic devices</li>
-													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control problems of Telemanipulation</li>
-													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control problems of Networked robots</li>
-													<span id = "show_more_lists" style="display: none;">
-														
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Robot control (adaptive, robust, learning)</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Force and compliance control</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Multi cooperative robot control</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Sensory based robot control</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Compact and efficient power for robots</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Industrial robot control applications for manufacturing</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Application of time-delay for robotic systems</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Embedded control design for network control robots and industrial robotic systems</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Multi-agent systems and cooperative control</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Medical robotics.</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+														Intelligent control over wireless network: mobile robots,
+														vehicles and UAVs Semi-, highly- and full-automated driving</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+														Formation flying and control for defense applications</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control
+														of space vehicles</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control
+														problems of Haptic devices</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control
+														problems of Telemanipulation</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Control
+														problems of Networked robots</li>
+													<span id="show_more_lists" style="display: none;">
+
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Robot control (adaptive, robust, learning)</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Force and compliance control</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Multi cooperative robot control</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Sensory based robot control</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Compact and efficient power for robots</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Industrial robot control applications for manufacturing</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Application of time-delay for robotic systems</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Embedded control design for network control robots and
+															industrial robotic systems</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Multi-agent systems and cooperative control</li>
+														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">
+															Medical robotics.</li>
 													</span>
 
 												</ul>
@@ -507,59 +618,99 @@
 												color:#ffffff;">
 												read more<img src="images/arrow.png" alt=""></span
 												></div> -->
-												<button type="button" onclick="more_info()" class="btn btn-primary middle-for-mobile" id="middle-for-mobile" style="margin-left: 10px;" 
-												
-												><span id ="more_or_less" style="position: relative;padding-top: 2%;top:-15px;">Show More</span></button>
+											<button type="button" onclick="more_info()"
+												class="btn btn-primary middle-for-mobile" id="middle-for-mobile"
+												style="margin-left: 10px;"><span id="more_or_less"
+													style="position: relative;padding-top: 2%;top:-15px;">Show
+													More</span></button>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="tab_panel">
+							<div class="tab_panel" id="submission">
 								<div class="row">
 									<div class="col">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>Paper Submission</h3></div>
-												<div class="tab_text">
-													
-													<p>Final date of submission: <span style="color:#7F66FF">14 August, 2020</span></p>
-													<p>Notification Of Acceptance: <span style="color:#7F66FF">20 September, 2020</span></p>
-													<p>Submission of the updated paper: <span style="color:#7F66FF">30 September, 2020</span></p>
-													<p>Paper submission is open and through Easy Chair. Please follow 
-														<a href="https://easychair.org/conferences/?conf=soccer2020" target="_blank">Easy Chair</a></p>	
-														<p>PPlease use the following templates (maximum pages 20):&nbsp;&nbsp;&nbsp;
-    														<a href="ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Microsoft Word Template</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    														<a href="ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip">Latex Template</a>.		</p>								
-												<p>Please use the following templates:&nbsp;&nbsp;&nbsp;
-    														<a href="Book_Contributor_EN_1(Limited) v1.1.docx" target="_blank">Copyright transfer</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    														<a href="Permission Request Form (Springer).doc" target="_blank">Permission form for any copyright material used in manuscript.</a></p>
-												</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab_panel">
-								<div class="row">
-									<div class="col">
-										<div class="tab_panel_content">
-											<div class="tab_title"><h3>Publications</h3></div>
-											<div class="tab_text">
-												<p style="text-align: justify;">The papers will be published as book chapters of a Springer book series Smart Innovation, Systems and Technologies. The tentative
-													outline of the book is as follows:</p>
-													<br><br>
-													<ul style="list-style-type:disc;" style="margin-bottom: 1vh;">
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section 1: Attributed papers on Fundamental Control theories for robotic applications.</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section 2: Attributed papers on Communication and Control for robotic applications.</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section 3: Attributed papers on Embedded system design for robotic applications.</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section 4: Attributed papers on Intelligent Control for robotic applications.</li>
-														<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section 5: Attributed papers on Multi-agent system and cooperative control</li>
-													</ul>
+											<div class="tab_title" id="submission">
+												<h3>Paper Submission</h3>
 											</div>
-											<p><h4>A best paper award will be given to the study which will be selected by the committee among the presented papers in SOCCER 2020.  An award committee will be recommended by the advisory committee and the nominees will be evaluated with blind peer review system. Study’s relevance to the symposium’s scope, its scientific contribution, writing/presentation style will be considered in the evaluation process.</h4></p>
+											<div class="tab_text">
+
+												<p>Final date of submission: <span style="color:#7F66FF">14 August,
+														2020</span></p>
+												<p>Notification Of Acceptance: <span style="color:#7F66FF">20 September,
+														2020</span></p>
+												<p>Submission of the updated paper: <span style="color:#7F66FF">30
+														September, 2020</span></p>
+												<p>Paper submission is open and through Easy Chair. Please follow
+													<a href="https://easychair.org/conferences/?conf=soccer2020"
+														target="_blank">Easy Chair</a></p>
+												<p>PPlease use the following templates (maximum pages
+													20):&nbsp;&nbsp;&nbsp;
+													<a
+														href="ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Microsoft
+														Word Template</a> &nbsp;&nbsp;&nbsp;&nbsp;
+													<a
+														href="ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip">Latex
+														Template</a>. </p>
+												<p>Please use the following templates:&nbsp;&nbsp;&nbsp;
+													<a href="Book_Contributor_EN_1(Limited) v1.1.docx"
+														target="_blank">Copyright transfer</a> &nbsp;&nbsp;&nbsp;&nbsp;
+													<a href="Permission Request Form (Springer).doc"
+														target="_blank">Permission form for any copyright material used
+														in manuscript.</a></p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						<div class="button button_2 intro_button" style="margin-left: 40%;"><a href="Flyer_SOCCER2020.png" target="_black"><span>Download Flyer<img src="images/arrow.png" alt=""></span></a></div>
+							<div class="tab_panel">
+								<div class="row">
+									<div class="col">
+										<div class="tab_panel_content">
+											<div class="tab_title">
+												<h3>Publications</h3>
+											</div>
+											<div class="tab_text">
+												<p style="text-align: justify;">The papers will be published as book
+													chapters of a Springer book series Smart Innovation, Systems and
+													Technologies. The tentative
+													outline of the book is as follows:</p>
+												<br><br>
+												<ul style="list-style-type:disc;" style="margin-bottom: 1vh;">
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section
+														1: Attributed papers on Fundamental Control theories for robotic
+														applications.</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section
+														2: Attributed papers on Communication and Control for robotic
+														applications.</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section
+														3: Attributed papers on Embedded system design for robotic
+														applications.</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section
+														4: Attributed papers on Intelligent Control for robotic
+														applications.</li>
+													<li style="margin-top: 2.4vh; margin-left:3vh;color:#46484b">Section
+														5: Attributed papers on Multi-agent system and cooperative
+														control</li>
+												</ul>
+											</div>
+											<p>
+												<h4>A best paper award will be given to the study which will be selected
+													by the committee among the presented papers in SOCCER 2020. An award
+													committee will be recommended by the advisory committee and the
+													nominees will be evaluated with blind peer review system. Study’s
+													relevance to the symposium’s scope, its scientific contribution,
+													writing/presentation style will be considered in the evaluation
+													process.</h4>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="button button_2 intro_button" style="margin-left: 40%;"><a
+									href="Flyer_SOCCER2020.png" target="_black"><span>Download Flyer<img
+											src="images/arrow.png" alt=""></span></a></div>
 
 						</div>
 					</div>
@@ -568,7 +719,7 @@
 		</div>
 	</div>
 
-	
+
 
 	<!-- Speakers -->
 
@@ -578,44 +729,46 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<div class="section_subtitle">To be announced more...</div>
-						<div class="section_title"><h1>Keynote Speakers</h1></div>
+						<div class="section_title">
+							<h1>Keynote Speakers</h1>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row speakers_row">
 
-						
+
 				<div class="col-xl-4 col-md-6">
 					<div class="speaker">
 						<div class="speaker_image"><img src="images/gu.jpg" alt=""></div>
 						<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
-							<div class="speaker_name"><a href="https://www.dal.ca/faculty/school-biomedical-engineering/our-people/our-faculty-atok/JasonGu.html" target="_blank">Prof. Jason Gu</a></div>
+							<div class="speaker_name"><a
+									href="https://www.dal.ca/faculty/school-biomedical-engineering/our-people/our-faculty-atok/JasonGu.html"
+									target="_blank">Prof. Jason Gu</a></div>
 							<div class="speaker_title">Dalhousie University, Canada</div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Speaker -->
-				<!-- <div class="col-xl-4 col-md-6">
+				 <div class="col-xl-4 col-md-6" >
 					<div class="speaker">
-						<div class="speaker_image"><img src="images/speaker_2.jpg" alt=""></div>
+						<div class="speaker_image"><img src="images/shyamanta.png" alt=""></div>
 						<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
-							<div class="speaker_name"><a href="#">James Williams</a></div>
-							<div class="speaker_title">Marketing Guru</div>
+							<div class="speaker_name"><a href="http://www.iitg.ac.in/s.m.hazarika/" target="blank">Prof.  S M.Hazarika</a></div>
+							<div class="speaker_title">IIT Guwahati</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 
 				<!-- Speaker -->
-				<!-- <div class="col-xl-4 col-md-6">
-					<div class="speaker">
-						<div class="speaker_image"><img src="images/speaker_3.jpg" alt=""></div>
-						<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
-							<div class="speaker_name"><a href="#">Michael Parker</a></div>
-							<div class="speaker_title">Marketing Guru</div>
+				
+					<div class="speaker" style="margin-top: 100px;text-align: justify;">
+							<p style="font-size:large;font-weight:700;text-align: justify;">High Level Control Strategies in Neurorehabilitation</p>
+							<p>Shyamanta M Hazarika is a Professor of Mechanical Engineering at IIT Guwahati and leads the Biomimetic Robotics and Artificial Intelligence Lab. His research interest is in Rehabilitation Robotics. This translates into interest in Artificial Intelligence, Biomimetic Robotics and Neurorehabilitation. Prior to joining IIT Guwahati he was with the Department of Computer Science and Engineering, Tezpur University. He has been a Vertretungsprofessur of Cognitive Systems and NeuroInformatics, University of Bremen, Germany. Prof. Hazarika holds a B.E. in Mechanical Engineering from Assam Engineering College, Guwahati, India; M.Tech in Robotics from Center for Robotics, IIT Kanpur, India. He has completed his PhD in Artificial Intelligence from School of Computing, University of Leeds, England.</p>
 						</div>
 					</div>
-				</div> -->
+				</div> 
 
 				<!-- Speaker -->
 				<!-- <div class="col-xl-4 col-md-6">
@@ -662,7 +815,9 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<div class="section_subtitle" style="margin-top:10vh">see what's all about</div>
-						<div class="section_title"><h1>Schedule</h1></div>
+						<div class="section_title">
+							<h1>Schedule</h1>
+						</div>
 						<h4>The virtual conference will be carried out in the Google Meet platform</h4>
 					</div>
 				</div>
@@ -672,7 +827,8 @@
 				<!-- Schedule Column -->
 				<div class="col-lg-6 schedule_col">
 					<div class="schedule_container">
-						<div class="schedule_title_bar schedule_title_bar_1 text-center">Day 1. <span>3rd October, 2020</span></div>
+						<div class="schedule_title_bar schedule_title_bar_1 text-center">Day 1. <span>3rd October,
+								2020</span></div>
 						<div class="schedule_list">
 							<ul>
 								<div class="intro_text text-center">
@@ -726,7 +882,8 @@
 				<!-- Schedule Column -->
 				<div class="col-lg-6 schedule_col">
 					<div class="schedule_container">
-						<div class="schedule_title_bar schedule_title_bar_2 text-center">Day 2. <span>4th October, 2020</span></div>
+						<div class="schedule_title_bar schedule_title_bar_2 text-center">Day 2. <span>4th October,
+								2020</span></div>
 						<div class="schedule_list">
 							<ul>
 								<div class="intro_text text-center">
@@ -793,101 +950,118 @@
 	<div class="intro" id="registration">
 		<div class="container">
 			<div class="tab_panel"></div>
-				<div class="row">
-					<div class="col">
-						<div class="tab_panel_content">
-							<div class="tab_title text-center"><h3>Registration</h3></div>
-							<div class="tab_text">
-								<br>
-								<p>Indian participants have to pay the registration fee via online transfer to the account of the Director,
-									NITSilchar <br>(A/C No.: 10521277057, Branch: NIT Silchar, IFSC: SBIN0007061).</p> 
-									<p><b> Registration to be done after your paper is accepted for the conference. At the time of registration please upload scan copy of your online-transaction slip for verification in pdf or jpg format.</b></p>
-									<p><b> The registration fee include two papers.</b></p>
-									<p>For details please visit <span><a href="https://www.nits.ac.in" style="color:#7F66FF"> www.nits.ac.in</a></span></p>
-									<p>Foregin Participants: Registration procedure to be announced soon.</p>
-									<div class="button button_2 intro_button" style="margin-left: 28vw;;"><a href="https://www.nits.ac.in"><span>Register Online<img src="images/arrow.png" alt=""></span></a></div>
-									
-							</div>
+			<div class="row">
+				<div class="col">
+					<div class="tab_panel_content">
+						<div class="tab_title text-center">
+							<h3>Registration</h3>
 						</div>
-						<div class="tab_panel_content" ">
+						<div class="tab_text">
 							<br>
-							<div class="tab_title text-center"><h4>Registration Fee</h4></div>
-							<br>
-								
-							</div> 
-							<div class="container text-dark">
-								<table class="table table-bordered table-striped" >
-									<thead>
-									  <tr class="thead-dark text-dark">
-										<th scope="col" style="text-align: center;" >Registration Type</th>
-										<th scope="col"colspan="2" style="text-align: center;">Early-bird Registration</th>
-										<th scope="col"colspan="2" style="text-align: center;">Late Registration</th>
-										
-									  </tr>
-									</thead>
-									<tbody>
-										<tr>
-											<th scope="row"></th>
-											<td>Indian</td>
-											<td>Foreign ( in USD)</td>
-											<td>Indian</td>
-											<td>Foreign ( in USD)</td>
-											
-										  </tr>
-									  <tr>
-										<th scope="row">Industry</th>
-										<td>₹ 1,000</td>
-										<td>$ 20</td>
-										<td>₹ 1,000</td>
-										<td>$ 20</td>
-									
-									  </tr>
-									  <tr>
-										<th scope="row">Faculty</th>
-										<td>₹ 1000</td>
-										<td>$ 20</td>
-										<td>₹ 1000</td>
-										<td>$ 20</td>
-									  </tr>
-									  <tr>
-										<th scope="row">Student</th>
-										<td>₹ 500</td>
-										<td>$ 10</td>
-										<td>₹ 500</td>
-										<td>$ 10</td>
-									  </tr>
-									</tbody>
-								  </table>
-							</div>
+							<p>Indian participants have to pay the registration fee via online transfer to the account
+								of the Director,
+								NITSilchar <br>(A/C No.: 10521277057, Branch: NIT Silchar, IFSC: SBIN0007061).</p>
+							<p><b> Registration to be done after your paper is accepted for the conference. At the time
+									of registration please upload scan copy of your online-transaction slip for
+									verification in pdf or jpg format.</b></p>
+							<p><b> The registration fee include two papers.</b></p>
+							<p>For details please visit <span><a href="https://www.nits.ac.in" style="color:#7F66FF">
+										www.nits.ac.in</a></span></p>
+							<p>Foregin Participants: Registration procedure to be announced soon.</p>
+							<div class="button button_2 intro_button" style="margin-left: 28vw;;"><a
+									href="https://www.nits.ac.in"><span>Register Online<img src="images/arrow.png"
+											alt=""></span></a></div>
+
 						</div>
 					</div>
-					
+					<div class="tab_panel_content" ">
+							<br>
+							<div class=" tab_title text-center">
+						<h4>Registration Fee</h4>
+					</div>
+					<br>
+
+				</div>
+				<div class="container text-dark">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr class="thead-dark text-dark">
+								<th scope="col" style="text-align: center;">Registration Type</th>
+								<th scope="col" colspan="2" style="text-align: center;">Early-bird Registration</th>
+								<th scope="col" colspan="2" style="text-align: center;">Late Registration</th>
+
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row"></th>
+								<td>Indian</td>
+								<td>Foreign ( in USD)</td>
+								<td>Indian</td>
+								<td>Foreign ( in USD)</td>
+
+							</tr>
+							<tr>
+								<th scope="row">Industry</th>
+								<td>₹ 1,000</td>
+								<td>$ 20</td>
+								<td>₹ 1,000</td>
+								<td>$ 20</td>
+
+							</tr>
+							<tr>
+								<th scope="row">Faculty</th>
+								<td>₹ 1000</td>
+								<td>$ 20</td>
+								<td>₹ 1000</td>
+								<td>$ 20</td>
+							</tr>
+							<tr>
+								<th scope="row">Student</th>
+								<td>₹ 500</td>
+								<td>$ 10</td>
+								<td>₹ 500</td>
+								<td>$ 10</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
+
+	</div>
+	</div>
+	</div>
 	</div>
 
 	<!-- CTA -->
 
 	<div class="cta" id="sponsors">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg"
+			data-speed="0.8"></div>
 		<div class="cta_overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="cta_content text-center">
-						<div class="cta_title text-center"><h1><u>Sponsors</u></h1></div>
+						<div class="cta_title text-center">
+							<h1><u>Sponsors</u></h1>
+						</div>
 						<div class="cta_text text-center">
-							<img src="images/icons/mhrd.png" style="height: 20%;width:20%;margin-left: -05vw;margin-top: 2%;">
-							<img src="images/icons/nit logo_white - Orange2.png" style="height: 20%;width:10%;margin-left: 20vw;margin-top: 2%;">
+							<img src="images/icons/mhrd.png"
+								style="height: 20%;width:20%;margin-left: -05vw;margin-top: 2%;">
+							<img src="images/icons/nit logo_white - Orange2.png"
+								style="height: 20%;width:10%;margin-left: 20vw;margin-top: 2%;">
 							<p style="color:#46484b; font-size:22px;margin-top:2vh"></p>
 						</div>
 					</div>
 					<div class="cta_content text-center">
-						<div class="cta_title text-center"><h3><u>Media Partner</u></h3></div>
+						<div class="cta_title text-center">
+							<h3><u>Media Partner</u></h3>
+						</div>
 						<div class="cta_text text-center">
 							<img src="images/icons/Logo_mediaPartner.jpg" style="height: 20%;width:20%;margin-top: 2%;">
-							
+
 							<p style="color:#46484b; font-size:22px;margin-top:2vh"></p>
 						</div>
 					</div>
@@ -907,64 +1081,68 @@
 					<div class="col-12 col-sm-6 col-lg-6 footer_col" style="position: relative;top:-11vh">
 
 						<!-- Logo -->
-						
+
 						<div class="footer_text">
 							<img src="./images/icons/br_soccer.png" style="position: relative;left: -16.8vh;">
 						</div>
 						<div class="logo">
-						
-							<h2 style="color: #ffffff; font-size: 44px;"><b>SOCCER </b><span style="color: #FF9000;"><b>2020</b></span></h2>
+
+							<h2 style="color: #ffffff; font-size: 44px;"><b>SOCCER </b><span
+									style="color: #FF9000;"><b>2020</b></span></h2>
 							<br>
-							<div style="color: #ffffff;font-size: 16px;">Symposium on Control, Communication and Embedded System for Robotics
+							<div style="color: #ffffff;font-size: 16px;">Symposium on Control, Communication and
+								Embedded System for Robotics
 								<br>
-								<span style="color: #7F66FF;">Organized By :</span> Electrical Engineering Department, NIT Silchar
-							<br>
-							<span style="color: #7F66FF;">Date :</span> 03-04 October,2020
-							<br>
-							<span style="color: #7F66FF;">Sponsored By :</span> SPARC, MHRD, Government of India</div>
-						
+								<span style="color: #7F66FF;">Organized By :</span> Electrical Engineering Department,
+								NIT Silchar
+								<br>
+								<span style="color: #7F66FF;">Date :</span> 03-04 October,2020
+								<br>
+								<span style="color: #7F66FF;">Sponsored By :</span> SPARC, MHRD, Government of India
+							</div>
+
 						</div>
-						
+
 					</div>
 					<!-- Single Footer Widget Area -->
 					<!-- <div class="text-center">
 						<h1>Contact us</h1>
 					</div> -->
-                    <div class="col-12 col-sm-6 col-lg-6 footer_col">
+					<div class="col-12 col-sm-6 col-lg-6 footer_col">
 						<div class="row" style="margin-bottom: 5vh;">
 							<h2 style="color: #FFF;margin:2vh auto">Contacts</h2>
 						</div>
 						<div class="row">
-                        <div class="single-footer-widget mb-60" style="margin-left: 10vh;">
-                            <!-- Widget Title -->
-                            <!-- Contact Area -->
-                            <div class="footer-contact-info" style="margin-left: 2vh;">
-                                <p style="color:#ffffff">Dr.Rajeeb Dey</p>
-                                <p style="color:#ffffff"></i>Organizing Chair</p>
-                                <p style="color:#ffffff">+91-7086731971</p>
-                                <p style="color:#ffffff">rajeeb.iitkgp@gmail.com</p>
-                            </div>
-                        </div>
-                    
-                        <div class="single-footer-widget mb-60" style="margin-left: 13vh;margin-bottom: 0%;">
-                            <div class="footer-contact-info">
-                            	<p style="color:#ffffff">Dr.Nabanita Adhikary</p>
-                                <p style="color:#ffffff"></i>Organizing Chair</p>
-                                <p style="color:#ffffff">+91-9864428032</p>
-                                <p style="color:#ffffff">adhikarynabanita@gmail.com</p>
-                            </div>
-						</div>
-						<!-- <img src="./images/icons/Logo_mediaPartner.jpg" style="position: relative;height: 115px;width: 150px;margin-top: 100px;margin-left: 192px;">
+							<div class="single-footer-widget mb-60" style="margin-left: 10vh;">
+								<!-- Widget Title -->
+								<!-- Contact Area -->
+								<div class="footer-contact-info" style="margin-left: 2vh;">
+									<p style="color:#ffffff">Dr.Rajeeb Dey</p>
+									<p style="color:#ffffff"></i>Organizing Chair</p>
+									<p style="color:#ffffff">+91-7086731971</p>
+									<p style="color:#ffffff">rajeeb.iitkgp@gmail.com</p>
+								</div>
+							</div>
+
+							<div class="single-footer-widget mb-60" style="margin-left: 13vh;margin-bottom: 0%;">
+								<div class="footer-contact-info">
+									<p style="color:#ffffff">Dr.Nabanita Adhikary</p>
+									<p style="color:#ffffff"></i>Organizing Chair</p>
+									<p style="color:#ffffff">+91-9864428032</p>
+									<p style="color:#ffffff">adhikarynabanita@gmail.com</p>
+								</div>
+							</div>
+							<!-- <img src="./images/icons/Logo_mediaPartner.jpg" style="position: relative;height: 115px;width: 150px;margin-top: 100px;margin-left: 192px;">
 						<p style="color:#ffffff;position: relative;height: 115px;width: 150px;margin-top: 100px;margin-left: 192px;">Media Partner</p> -->
 						</div>
-                    </div>
-                        </div>
-                    </div>
-                </div>
-                    <!-- Single Footer Widget Area -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Single Footer Widget Area -->
 
-					<!-- Newsletter -->
-					<!-- <div class="col-lg-4 footer_col">
+		<!-- Newsletter -->
+		<!-- <div class="col-lg-4 footer_col">
 						<div class="footer_column">
 							<div class="footer_title">Newsletter</div>
 							<form action="#" class="newsletter_form" id="newsletter_form">
@@ -973,9 +1151,9 @@
 							</form>
 						</div>
 					</div> -->
-					
-					<!-- Gallery -->
-					<!-- <div class="col-lg-4 footer_col">
+
+		<!-- Gallery -->
+		<!-- <div class="col-lg-4 footer_col">
 						<div class="footer_column">
 							<div class="footer_title">Instagram</div>
 							<div class="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
@@ -1024,18 +1202,21 @@
 						</div>
 					</div> -->
 
-				</div>
-			</div>
+		</div>
+		</div>
 		</div>
 		<div class="footer_bar">
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="footer_bar_content d-flex flex-row align-items-center justify-content-start">
-							<div class="copyright">Developed by :-- <a href="https://www.linkedin.com/in/ankit-srivastava-oa68oa/" target="_blank">Ankit Srivastava </a>
+							<div class="copyright">Developed by :-- <a
+									href="https://www.linkedin.com/in/ankit-srivastava-oa68oa/" target="_blank">Ankit
+									Srivastava </a>
 								&nbsp; &
-								<a href="https://www.linkedin.com/in/aditya-singh-sisodiya-scortier/" target="_blank">  &nbsp; Aditya Singh Sisodiya</a>
-						</div>
+								<a href="https://www.linkedin.com/in/aditya-singh-sisodiya-scortier/" target="_blank">
+									&nbsp; Aditya Singh Sisodiya</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1043,36 +1224,36 @@
 		</div>
 	</footer>
 
-</div>
+	</div>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
-<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/custom.js"></script>
-<script type="text/javascript">
-	  function more_info(){
-		  var dots = document.getElementById("show_more_lists");
-		  var moreOrLess = document.getElementById("more_or_less");
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="styles/bootstrap-4.1.2/popper.js"></script>
+	<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/progressbar/progressbar.min.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script type="text/javascript">
+		function more_info() {
+			var dots = document.getElementById("show_more_lists");
+			var moreOrLess = document.getElementById("more_or_less");
 
-		  	if(dots.style.display == "none"){
+			if (dots.style.display == "none") {
 				dots.style.display = "inline";
 				moreOrLess.innerHTML = "Show Less";
-			  }
-			else {
+			} else {
 				dots.style.display = "none";
 				moreOrLess.innerHTML = "Show More";
 			}
-	  }
-</script>
+		}
+	</script>
 </body>
+
 </html>
